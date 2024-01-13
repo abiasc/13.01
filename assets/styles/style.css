@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(201, 129, 141);
+}
+
+.img-presente {
+    width: 150px;
+    cursor: pointer;
+    transition-duration: 300ms;
+    position: relative;
+
+    &:hover { 
+        scale: 120%;
+    }
+}

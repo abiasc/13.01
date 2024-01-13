@@ -1,0 +1,65 @@
+.img-coracao {
+    width: 4rem;
+    cursor: pointer;
+
+    &:hover {
+        animation: 250ms linear infinite alternate running pulsar;
+    }
+}
+
+@keyframes pulsar {
+    0% {
+        transform: scale(100%);
+    }
+
+    100% {
+        transform: scale(120%);
+    }
+}
+
+.div-coloridos {
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.3rem 1rem;
+    cursor: pointer;
+    background-image: url(https://www.crmv.am.gov.br/wp-content/uploads/2018/07/Fundo-transparente-1900x1900-1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: background-image 1s ease-in;
+    
+    &:hover {
+        background-image: url(https://www.publicdomainpictures.net/pictures/120000/nahled/rainbow-colors-background.jpg);
+    }
+
+    & p {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: transparent;
+        transition: color 300ms ease-in;
+
+        &:hover {
+            color: #000000;
+        }
+    }
+}
+
+.button-back-folha {
+    background-color: blueviolet;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.3rem 0.6rem;
+    border-radius: 1rem;
+    border: 2px ridge #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7rem;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+        background-color: white;
+        color: black;
+    }
+}
